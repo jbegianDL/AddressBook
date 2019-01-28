@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e7345b-6a37-4dd7-9420-6ba69a38951b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AddressBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/AddressBookDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AddressBookDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Contact.java" afterDir="false" />
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/AddressBookDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+            <state relative-caret-position="345">
+              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -28,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Contact.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+            <state relative-caret-position="375">
+              <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
               <folding>
                 <element signature="e#188#189#0" expanded="true" />
                 <element signature="e#215#216#0" expanded="true" />
@@ -55,8 +54,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/AddressBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="242">
+              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+              <folding>
+                <element signature="e#806#807#0" expanded="true" />
+                <element signature="e#861#862#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,9 +79,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/com/company/Contact.java" />
         <option value="$PROJECT_DIR$/src/com/company/AddressBook.java" />
         <option value="$PROJECT_DIR$/src/com/company/AddressBookDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Contact.java" />
       </list>
     </option>
   </component>
@@ -121,7 +124,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548704950306" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548705497268" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -162,12 +165,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548702295893</updated>
-      <workItem from="1548702299753" duration="2155000" />
+      <workItem from="1548702299753" duration="2690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2155000" />
+    <option name="totallyTimeSpent" value="2690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -210,8 +213,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        <state relative-caret-position="375">
+          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
           <folding>
             <element signature="e#188#189#0" expanded="true" />
             <element signature="e#215#216#0" expanded="true" />
@@ -235,15 +238,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/AddressBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="242">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <folding>
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/AddressBookDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        <state relative-caret-position="345">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
         </state>
       </provider>
     </entry>
