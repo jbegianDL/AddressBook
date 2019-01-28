@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class AddressBook {
     private Contact [] contactList = new Contact[3];
 
+    //adds contact to contactList array
     public void addContact(Contact contact) {
         for (int i = 0; i < contactList.length; i++) {
             if (contactList[i] == null) {
@@ -14,6 +15,7 @@ public class AddressBook {
         }
     }
 
+    //prompts user and makes the contact object to add to contact list array
     public void makeContact(){
         Scanner usrInput = new Scanner(System.in);
         Contact newContact = new Contact();
@@ -30,6 +32,7 @@ public class AddressBook {
         addContact(newContact);
     }
 
+    //prints out the whole contact list array
     public void printAddressBook(){
         for(Contact contact : contactList){
             if(contact != null){
@@ -39,6 +42,7 @@ public class AddressBook {
         }
     }
 
+    //finds number of contacts used to help determine if array is full or not
     public int numberOfContacts() {
         int numContacts = 0;
         for (int i = 0; i < contactList.length; i++) {
@@ -49,10 +53,12 @@ public class AddressBook {
         return numContacts;
     }
 
+    //checks to see if array is full
     public boolean isFull(){
         return numberOfContacts() == contactList.length;
     }
 
+    //searches array by name
     public void searchByName(){
         String wantedName;
         System.out.println("Please enter a contacts name: ");
@@ -73,6 +79,7 @@ public class AddressBook {
         }
     }
 
+    //searches array by number
     public void searchByNumber(){
         String wantedNumber;
         System.out.println("Please enter a contacts Phone Number: ");
@@ -93,6 +100,7 @@ public class AddressBook {
         }
     }
 
+    //deletes contact by changing contactList[i] to null
     public void deleteContact(){
         String notWantedContact;
         printAddressBook();

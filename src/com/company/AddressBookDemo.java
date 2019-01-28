@@ -17,6 +17,7 @@ public class AddressBookDemo {
                 "\n Please input a number: ";
 
 
+	    //loops as long as repeat boolean is true
 	    do{
             System.out.println(prompt);
             int usrChoice = usrInput.nextInt();
