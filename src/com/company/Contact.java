@@ -1,7 +1,5 @@
 package com.company;
 
-import java.sql.SQLOutput;
-
 public class Contact {
     private String name;
     private String address;
