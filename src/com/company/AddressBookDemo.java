@@ -6,6 +6,7 @@ public class AddressBookDemo {
     public static void main(String[] args) {
 	    Scanner usrInput = new Scanner(System.in);
 	    Contact newContact = new Contact();
+	    AddressBook newAddressBook = new AddressBook();
 
         System.out.println("Contact Name");
         newContact.setName(usrInput.nextLine());
@@ -16,6 +17,8 @@ public class AddressBookDemo {
         System.out.println("Contact Birthday");
         newContact.setBirthday(usrInput.nextLine());
 
-        newContact.printDetails();
+        newAddressBook.addContact(newContact);
+
+        newAddressBook.printAddressBook();
     }
 }

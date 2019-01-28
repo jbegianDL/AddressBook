@@ -45,5 +45,6 @@ public class Contact {
         System.out.println("Address: " + address);
         System.out.println("Phone Number: " + phoneNumber);
         System.out.println("Birthday: " + birthday);
+        System.out.println("\n")
     }
 }
