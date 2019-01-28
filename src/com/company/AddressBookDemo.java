@@ -7,7 +7,7 @@ public class AddressBookDemo {
 	    Scanner usrInput = new Scanner(System.in);
 	    AddressBook newAddressBook = new AddressBook();
 	    boolean repeat = true;
-	    String prompt = "Welcome to the Address Book! What would you like to do? " +
+	    String prompt = "\n Welcome to the Address Book! What would you like to do? " +
                 "\n 1 - View All Entries" +
                 "\n 2 - Search By Name" +
                 "\n 3 - Search By Number" +
@@ -23,6 +23,15 @@ public class AddressBookDemo {
             switch(usrChoice){
                 case 1:
                     newAddressBook.printAddressBook();
+                    break;
+                case 2:
+                    newAddressBook.searchByName();
+                    break;
+                case 3:
+                    newAddressBook.searchByNumber();
+                    break;
+                case 4:
+                    newAddressBook.deleteContact();
                     break;
                 case 5:
                     if (!newAddressBook.isFull()){
