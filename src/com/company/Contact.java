@@ -1,5 +1,7 @@
 package com.company;
 
+import java.sql.SQLOutput;
+
 public class Contact {
     private String name;
     private String address;
@@ -36,5 +38,12 @@ public class Contact {
 
     public void setBirthday(String birthday) {
         this.birthday = birthday;
+    }
+
+    public void printDetails(){
+        System.out.println("Name: " + name);
+        System.out.println("Address: " + address);
+        System.out.println("Phone Number: " + phoneNumber);
+        System.out.println("Birthday: " + birthday);
     }
 }
